@@ -67,4 +67,5 @@ async def convert_link(url_id: str):
 @app.post("/create/")
 async def create_link(link: str, api_key: str):
     link_id = add_key(api_key, link)
+    print(link)
     return link_id
