@@ -3,6 +3,8 @@ API to shorten links (using FastAPI)
 
 Methods:
 
-.../{link_id} - open website
+.../{url_id} - open website
 
-.../create/?link={address}&api_key={your_api_key} - create short link (returns link id)
+.../create/?link=...&api_key=... - create short link (returns link id)
+
+.../delete/?url_id=...&api_key=...
